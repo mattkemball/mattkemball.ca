@@ -211,7 +211,7 @@ p {
   font-family: Trade Gothic LT Std, sans-serif;
   font-weight: 100;
   color: white;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 img {
@@ -426,12 +426,13 @@ header6 div img {
   height: auto;
 }
 
+.title {
+  color: #EF3A24;
+}
 
 .solution {
-  margin-left: 8rem;
-  margin-right: 8rem;
-  margin-top: 8rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 
@@ -507,6 +508,23 @@ header6 div img {
 
 }
 
+.video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 30px;
+        height: 0;
+        overflow: hidden;
+    }
+    .video-container iframe,
+    .video-container object,
+    .video-contaienr embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 75%;
+        align-content: center;
+    }
 
 
 .billboard{ background-color: black; color: white; min-height: 650px; }
@@ -584,8 +602,10 @@ header6 div img {
 
 
 @media only screen and (min-width: 60em) {
-
-
+.solution {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
 }
 
 @media only screen and (min-width: 90em) {
@@ -605,6 +625,7 @@ header6 div img {
     margin: 0;
 
   }
+
 
   h1 {
     font-family: Trade Gothic LT Std, sans-serif;
@@ -714,6 +735,8 @@ header6 div img {
     &.three {
       border-left: 5px solid #fff;
     }
+
+
   }
 }
 
