@@ -91,8 +91,8 @@ header {
 }
 
 .logo {
-  display: inline-block;
-  width: 15%
+  display: inline-block ;
+  min-width: 15%;
 }
 
 
@@ -611,9 +611,11 @@ h1 {
 
 }
 
-@media only screen and (min-width: 90em) {
+@media only screen and (max-width: 90em) {
 
-
+.logo {
+  width: 35%;
+}
 
 
 }
@@ -641,7 +643,6 @@ h1 {
   .billboard h1 {
     font-family: Trade Gothic LT Std, sans-serif;
     font-size: 35px;
-    
     font-weight: 600;
   }
 
@@ -743,6 +744,10 @@ header6 div img {
 
 
   }
+  .logo {
+    width: 5%;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -770,7 +775,7 @@ label:after{
   width: 30px;
   height: 5px;
   background: #FFFFFF;
-  margin: 7px 5px;
+  margin: 30px 5px;
   box-shadow: 0px 10px 0px #FFFFFF, 0px 20px 0px #FFFFFF
 }
 
@@ -811,3 +816,5 @@ label:after{
 		  z-index: 9999;
 		  float: none;
 	}
+
+}
