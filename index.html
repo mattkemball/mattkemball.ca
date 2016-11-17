@@ -41,10 +41,9 @@
       <nav>
        <input type="checkbox" id="nav" /><label for="nav"></label>
         <a href="#" class="logo"><img src="images/logo.svg" alt=""/></a>
-        <ul>
-          <li><a href="#">WORK</a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#">CONTACT</a></li>
+        <ul class="navigation">
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
     </div>
@@ -91,7 +90,9 @@
 
   <div class="billboard2  billboard--img  billboard--tint parallax" style="background-image:url(http://i36.photobucket.com/albums/e41/mattkemball1993/tempbillboard2_zpsgirjymez.jpg)">
     <div class="billboard2__content">
+      <section id="work">
         <h1>MY WORK</h1>
+      </section>
         <h4>My design work, both professional and personal.</h4>
     </div>
   </div>
@@ -110,17 +111,17 @@
 
     <div><img src="images/skyrim-icon.jpg" alt>
       <h3 class="kilo">Skyrim Main Menu UI</h3>
-      <button class="button" style="vertical-align:middle"><span>READ MORE </span></button>
+      <a href="skyrimui.html"><button class="button" style="vertical-align:middle"><span>READ MORE </span></button></a>
     </div>
  </header2>
-
+<section id="contact">
  <div class="billboard3  billboard--img  billboard--tint parallax" style="background-image:url(http://i36.photobucket.com/albums/e41/mattkemball1993/tempbillboard2_zpsgirjymez.jpg)">
    <div class="billboard3__content">
        <h1>CONTACT</h1>
        <h4>Give me a shout and lets work together to solve your problem!</h4>
    </div>
  </div>
-
+</section>
 <div class="contact">
  <h3><strong>EMAIL</strong>: mattkemball1993@gmail.com<br><strong>PHONE</strong>: 613-297-7869</h3>
  </div>
@@ -132,10 +133,19 @@
    <div class="social">E</div>
  </div>
 
+ <div class="content">
+  <h3>© 2016 Matt Kemball</h3>
+ </div>
+
+ <script src="js/jquery.min.js"></script>
+  <!-- Must come after jQuery because it uses jQuery -->
+  <script src="js/jquery.scrollTo.min.js"></script>
+  <!-- Must come after ScrollTo because it uses ScrollTo -->
+  <script src="js/jquery.localScroll.min.js"></script>
+  <!-- Must come last because our code needs all the above scripts -->
+  <script src="js/main.js"></script>
 </body>
 
-<div class="content">
- <h3>© 2016 Matt Kemball</h3>
-</div>
+
 
 </html>
