@@ -93,6 +93,7 @@ header {
 .logo {
   display: inline-block ;
   min-width: 15%;
+
 }
 
 
@@ -447,7 +448,7 @@ header6 div img {
         position: relative;
         &:before{
             content:"";
-            background: rgba(5,9,0,1);
+            background: rgba(5,,0,1);
             position: absolute;
             top: 0;
             bottom: 0;
