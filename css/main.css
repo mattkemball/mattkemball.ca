@@ -447,7 +447,7 @@ header6 div img {
         position: relative;
         &:before{
             content:"";
-            background: rgba(0,0,0,0.5);
+            background: rgba(5,9,0,1);
             position: absolute;
             top: 0;
             bottom: 0;
