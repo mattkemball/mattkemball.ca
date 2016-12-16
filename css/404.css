@@ -1,0 +1,145 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #102433;
+  background-size: 300%;
+}
+
+h1 {
+  font-family: futura std, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 1em;
+  color: #F15857;
+}
+
+h2 {
+  font-family: futura std, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 0
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  color: white;
+}
+
+h3 {
+  font-family: futura std, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1em;
+  text-align: center;
+  margin: 0
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  color: white;
+}
+
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  text-align: center;
+  padding-left: 4em;
+  padding-right: 4em;
+  margin: 0;
+  color: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  padding: 1em;
+}
+
+.check {
+  margin-top: 3em;
+}
+
+.link a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 2em;
+  font-family: 'fjalla one', sans-serif;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+
+
+.icon {
+  align-content: center;
+  margin: 0 auto;
+  display: inline-flex;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.email {
+  padding-bottom: 2em;
+  margin: 0
+}
+
+@media only screen and (min-width: 60em) {
+  p {
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 120em) {
+  p {
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+  }
+}
