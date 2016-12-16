@@ -549,17 +549,6 @@ header6 div img {
   display: inline-block;
   width: 70px;
   height: 70px;
-  margin: 0 10px;
-  line-height: 70px;
-  font-family: Trade Gothic LT Std, sans-serif;
-  font-weight: 600;
-  font-size: 35px;
-  text-align: center;
-  color: #000000;
-  border-radius: 50%;
-  background: #EE473E;
-  overflow: hidden;
-  transition: color .3s;
 }
 
 .social:hover {
@@ -590,6 +579,19 @@ header6 div img {
 }
 
 
+
+
+.icon1 {
+    max-width: 5em;
+}
+
+.icon2 {
+    max-width: 5em;
+}
+
+.icon3 {
+    max-width: 5em;
+}
 
 
 
