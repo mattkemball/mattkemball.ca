@@ -533,6 +533,7 @@ header6 div img {
 
 .content {
   padding: 30px;
+  padding-left: 60px;
   font: 300 40px Lato, sans-serif;
   text-align: left;
   color: #999;
@@ -543,12 +544,19 @@ header6 div img {
   padding: 20px 0;
   text-align: left;
   padding-left: 2em;
+  color: #999;
+  background: #000000;
 }
 
 .social {
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  padding: 0;
+  margin: 0;
+
+}
+
+.icon1 {
+  padding: 1rem;
 }
 
 .social:hover {
